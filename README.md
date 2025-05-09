@@ -53,5 +53,5 @@ The objective is to use these input features to predict the most probable dollar
 
 ```bash
 ├── README.md
-├── car_purchase_prediction.ipynb      # Main notebook
+├── car_purchase_prediction.ipynb     
 

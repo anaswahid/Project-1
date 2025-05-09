@@ -1,46 +1,51 @@
-# 📊 Anas_Project_1 – Exploratory Data Analysis in Python
+# 🚗 Car Purchase Amount Prediction using Machine Learning
 
-This repository contains a fully interactive data analysis notebook created in Google Colab. The project demonstrates a complete end-to-end **exploratory data analysis (EDA)** workflow using popular Python libraries, focusing on data loading, cleaning, exploration, and visualization.
+This repository presents a machine learning project developed in Google Colab to **predict the dollar amount a customer is likely to spend on a car purchase**. The model is built using customer demographic and financial data, making it useful for car dealerships, marketing teams, and financial advisors to anticipate customer spending behavior.
 
 ---
 
-## 🎯 Goal of the Project
+## 🎯 Project Objective
 
-The primary goal of this project is to demonstrate a complete data analysis workflow using Python in a Google Colab environment. It aims to help users understand how to load, clean, explore, and visualize data effectively using industry-standard libraries like **Pandas**, **Matplotlib**, and **Seaborn**. The notebook serves as both an educational tool and a reusable template for future analysis tasks.
+The goal of this project is to build a **regression model** that predicts the **car purchase amount** based on a set of input features related to customer demographics and financial status.
 
 ---
 
 ## ❓ Problem Statement
 
-This project addresses a real-world scenario of analyzing a structured dataset to extract meaningful insights. The focus is on identifying patterns, trends, and correlations in the data using visual and statistical techniques.
+You are working as a car salesman and want to develop a predictive model to estimate how much a customer is willing to spend on a car based on the following attributes:
 
-The notebook helps answer questions such as:
-- What are the most frequent categories in the dataset?
-- How are numeric variables distributed?
-- Are there any outliers or missing data?
-- What is the correlation between key variables?
+- Customer Name
+- Customer E-mail
+- Country
+- Gender
+- Age
+- Annual Salary
+- Credit Card Debt
+- Net Worth
 
----
+### 📈 Target Variable:
+- **Car Purchase Amount**
 
-## 📌 Key Features
-
-- 📁 Data import and inspection using **Pandas**
-- 🧹 Data cleaning and preprocessing
-- 📊 Summary statistics and value counts
-- 📈 Visualizations using **Matplotlib** and **Seaborn**
-- 🔍 Correlation heatmap for identifying variable relationships
-- ✅ Interactive execution in **Google Colab**
+The objective is to use these input features to predict the most probable dollar amount a customer will spend, enabling better sales strategies and targeted offerings.
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 Machine Learning Approach
 
-- Python 3.x
+- 📦 **Data Preprocessing**: Handling missing values, categorical encoding, and feature selection
+- 📊 **Exploratory Data Analysis (EDA)**: Identifying trends, patterns, and outliers
+- 🤖 **Model Used**: Linear Regression / Random Forest / XGBoost (can be customized)
+- 📉 **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), R² Score
+
+---
+
+## 🛠️ Tools and Libraries
+
+- Python 3
 - Google Colab
-- Pandas
-- Matplotlib
-- Seaborn
-- NumPy (if used)
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib & Seaborn
 
 ---
 
@@ -48,5 +53,5 @@ The notebook helps answer questions such as:
 
 ```bash
 ├── README.md
-├── Anas_Project_1.ipynb       # Main notebook file
+├── car_purchase_prediction.ipynb      # Main notebook
 
